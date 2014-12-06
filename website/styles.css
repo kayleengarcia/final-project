@@ -1,0 +1,27 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	background-color: #999;
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: .004em;
+}
+.wrapper {
+	background-color: #FFF;
+	padding: 0px;
+	width: 950px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}.content {
+	width: 750px;
+	margin: 0px;
+	padding: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 20px;
+}
+.secondarynav {
+}
