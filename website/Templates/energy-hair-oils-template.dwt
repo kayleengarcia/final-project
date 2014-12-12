@@ -5,66 +5,67 @@
 <link href="../styles.css" rel="stylesheet" type="text/css" />
 <!-- TemplateParam name="about sub menu" type="boolean" value="true" -->
 <!-- TemplateParam name="blog sub menu" type="boolean" value="true" -->
-<!-- TemplateParam name="forum sub menu" type="boolean" value="true" -->
 <!-- TemplateParam name="shop sub menu" type="boolean" value="true" -->
+<!-- TemplateParam name="experience sub menu" type="boolean" value="true" -->
+<!-- TemplateParam name="protective styles sub menu" type="boolean" value="true" -->
+<!-- TemplateParam name="homepage sub menu" type="boolean" value="true" -->
+<title>Energy Hair Oils Website</title>
 </head>
 
 <body>
-	<div class="wrapper">
-    	<div class="header">[logo banner]
+	
+    	<div class="wrapper">
+    	  <p><img src="../images/banner.jpg" width="1000" height="200" alt="banner" /></p>
       </div>
-        <div class="primarynav">
-          <table width="950" border="2">
+   	  <div class="wrapper"><table class="primarynav">
             <tr>
-              <td><a href="../index.html">home</a></td>
-              <td><a href="../about/index.html">about</a></td>
-              <td><a href="../blog/index.html">blog</a></td>
-              <td><a href="../forum/index.html">forum</a></td>
-              <td><a href="../shop/index.html">shop</a></td>
-            </tr>
-          </table>
-        </div>
+              <td class="primarynav a">
+              <a href="../index.html">home</a>
+               <a href="../about/index.html">about</a>
+              <a href="../blog/index.html">blog</a>
+              <a href="../experience/">experience</a>
+              <a href="../protective-styles/">protective styles</a>
+              <a href="../shop/index.html">shop</a></td>
+            </tr> </table>
+      </div>
         
         
   
-    <div class="content"><table width="950" border="3">
+    <div class="wrapper"><table class="wrapper">
   <tr>
-    <td width="746"><!-- TemplateBeginEditable name="page content" -->page content<!-- TemplateEndEditable --></td>
-    <td width="194"><!-- TemplateBeginIf cond="_document['about sub menu']" -->
-      <ul style="list-style: none; ">
-        <li></li>
-        <li><a href="../about/ives-hair-journey.html">ive's hair journey</a></li>
-        <li><a href="../about/ives-photo-diary.html">ive's photo diary</a></li>
+    <td class="content"><!-- TemplateBeginEditable name="page content" -->page content<!-- TemplateEndEditable --></td>
+    
+    <td class="secondarynav a"><!-- TemplateBeginIf cond="_document['about sub menu']" -->
+      
+      <ul>
+        <li><a href="../about/about-founders.html">about  founders</a></li>
         <li><a href="../about/baggy-method.html">the baggy method</a></li></ul><!-- TemplateEndIf -->
     
    
     <!-- TemplateBeginIf cond="_document['blog sub menu']" -->
-    <ul style="list-style: none; ">
+    <ul>
       <li><a href="../blog/deep-conditioning.html">deep conditioning</a></li>
-      <li><a href="../blog/protective-styles.html">protective styles</a></li>
-      <li><a href="../blog/health-and-wellness.html">health + wellness</a></li></ul><!-- TemplateEndIf -->
-    
-    
-    <!-- TemplateBeginIf cond="_document['forum sub menu']" -->
-    <ul style="list-style: none; ">
-      <li><a href="../forum/oily-hair.html">oily hair</a></li>
-      <li><a href="../forum/curly-vs-straight.html">texture</a></li>
-      <li><a href="../forum/anti-shampoo.html">anti-shampoo</a></li>
-      <li><a href="../forum/breakage.html">breakage</a></li></ul><!-- TemplateEndIf -->
-	
-	
-	<!-- TemplateBeginIf cond="_document['shop sub menu']" -->
-	<ul style="list-style: none; ">
-	  <li><a href="../shop/signature.html">signature</a></li>
-	  <li><a href="../shop/make-your-own.html">make your own</a></li>
+      <li><a href="../blog/health-and-wellness.html">health + wellness</a></li></ul><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['experience sub menu']" -->
+      <ul>
+      <li><a href="../experience/ives-hair-journey.html">ive's hair journey</a></li>
+      <li><a href="../experience/ives-photo-diary.html">ive's photo diary</a></li></ul><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['protective styles sub menu']" -->
+      <ul>
+      <li><a href="../protective-styles/twists.html">twists</a></li>
+      <li><a href="../protective-styles/braids.html">braids</a></li></ul><!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['shop sub menu']" -->
+	  <ul>
+	    <li><a href="../shop/coconutoil.html">coconut oil</a></li>
+	    <li><a href="../shop/jojobaoil.html">jojoba oil</a></li>
+	    <li><a href="../shop/sweetalmondoil.html">sweet almond oil</a></li>
+	    <li><a href="../shop/castoroil.html">castor oil</a></li>
 	  </ul>
-	<!-- TemplateEndIf --></td>
+	  </ul>
+	<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['homepage sub menu']" --><img src="../images/swirls.jpg" width="200" height="400" alt="swirls" /><img src="../images/swirls.jpg" width="200" height="400" alt="swirls" /><img src="../images/swirls.jpg" width="200" height="400" alt="swirls" /><img src="../images/swirls.jpg" width="200" height="400" alt="swirls" /><!-- TemplateEndIf --></td>
   </tr>
 </table>
 
   
-  </div>
+  
 
-        <div class="footer">[closing banner]</div></div>
+</div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 body {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 14px;
-	background-color: #999;
+	background-color: #6699CC;
 	margin: 0px;
 	padding: 0px;
 	letter-spacing: .004em;
@@ -9,17 +9,146 @@ body {
 .wrapper {
 	background-color: #FFF;
 	padding: 0px;
-	width: 950px;
+	width: 1000px;
 	margin-top: 0px;
 	margin-right: auto;
 	margin-bottom: 0px;
 	margin-left: auto;
 }.content {
-	width: 750px;
+	width: 800px;
 	margin: 0px;
 	padding: 0px;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 18px;
 	font-style: normal;
-	line-height: 25px;
+	line-height: 30px;
+}
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 36px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	text-transform: none;
+	top: auto;
+	text-align: center;
+}
+.primarynav {
+	width: 1000px;
+}
+.secondarynav li {
+	list-style-type: none;
+}
+.secondarynav {
+	width: 200px;
+}
+.secondarynav a {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFF;
+	text-align: right;
+	text-decoration: none;
+	font-style: normal;
+	background-color: #033;
+	display: block;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	padding-left: 10px;
+	border-radius: 5px;
+}
+td {
+	text-align: left;
+	vertical-align: top;
+	margin: 0px;
+	padding: 0px;
+}
+.primarynav a {
+	background-color: #033;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 10px;
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	text-align: center;
+}
+.primarynav a:hover {
+	background-color: #c4d7fe;
+}
+.secondarynav a:hover {
+	background-color: #F6F;
+}
+.imageborder {
+	background-color: #C9C;
+	border-bottom-style: ridge;
+	border-top-width: 15px;
+	border-right-width: 15px;
+	border-bottom-width: 15px;
+	border-left-width: 15px;
+	border-bottom-color: #C69;
+	border-right-style: outset;
+	border-top-style: inset;
+	border-left-style: outset;
+	border-right-color: #00F;
+	border-top-color: #F09;
+	border-left-color: #CF3;
+}
+.imagewrap {
+	float: left;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	border-top-width: 15px;
+	border-right-width: 15px;
+	border-bottom-width: 15px;
+	border-left-width: 15px;
+	border-top-style: inset;
+	border-right-style: outset;
+	border-bottom-style: ridge;
+	border-left-style: outset;
+	border-top-color: #F09;
+	border-right-color: #00F;
+	border-bottom-color: #C69;
+	border-left-color: #CF3;
+	margin-left: 20px;
+	padding: 0px;
+}
+.imagewrapright {
+	float: right;
+	border-top-width: 15px;
+	border-right-width: 15px;
+	border-bottom-width: 15px;
+	border-left-width: 15px;
+	border-top-style: inset;
+	border-right-style: outset;
+	border-bottom-style: ridge;
+	border-left-style: outset;
+	border-top-color: #F09;
+	border-right-color: #00F;
+	border-bottom-color: #C69;
+	border-left-color: #CF3;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+	margin-left: 50px;
 }
